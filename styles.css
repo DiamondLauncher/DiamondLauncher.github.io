@@ -26,7 +26,7 @@ body {
 }
 
 footer {
-    background-color: transparent; /* Kein Hintergrund */
+    color: #919191;
     text-align: center;
     padding: 10px 0;
     color: white; /* Textfarbe */

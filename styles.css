@@ -3,10 +3,14 @@ body {
     color: white;
     margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .container {
     text-align: center;
+    flex: 1; /* Füllt den verfügbaren Platz */
     padding: 50px 0;
 }
 
@@ -22,10 +26,8 @@ body {
 }
 
 footer {
-    background-color: #171717;
+    background-color: transparent; /* Kein Hintergrund */
     text-align: center;
     padding: 10px 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    color: white; /* Textfarbe */
 }
